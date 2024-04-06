@@ -31,6 +31,18 @@ h3 {
    color: #ffffff;
 }
 
+header h1 {
+   min-height: 150px;
+   text-align: left;
+   padding: 170px 40px 40px 40px;
+   color: #ffffff;
+   background-color: sienna;
+   background-image: url("/img/header.jpg");
+   background-size: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
 #contact {
    background-color: rgb(122, 98, 156);
    background-image: url("/img/map-image.png");
