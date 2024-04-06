@@ -168,3 +168,96 @@ nav a:hover {
       width: 50%;
    }
 }
+
+
+
+
+/*--------------------------------------------Location--------------------------------------------*/
+
+
+#location {
+   text-align: center;  
+   width: 100%;
+   padding: 10px;    
+   margin: 10px;
+}
+
+#titleMaps h2 {    
+   font-family: "Open Sans", sans-serif;
+   width: 100%;
+   padding: 10px;    
+   margin: 10px;
+}
+
+#titleMaps h3 {
+   font-family: "Open Sans", sans-serif;
+   width: 100%;
+   padding: 10px;    
+   margin: 10px;
+   color: gray;
+}
+
+#maps >article >iframe{
+   column-count: 2;
+   padding: 1px;    
+   margin: 1px;
+   background-color: black;
+}
+
+#mapa{
+   border-radius: 150px;
+   width: 100%;
+   width: 300px;
+   height: 300px;
+}
+
+#location address{
+   text-align: left;
+   width: 100%;
+   padding: 10px;    
+   margin: 10px; 
+}
+
+@media (width <= 769px){
+
+   #location{
+      text-align: center;
+      width: 100%;
+     
+   }
+
+   #titleMaps h2 {    
+      font-family: "Open Sans", sans-serif;
+      text-align: center;
+      width: 100%;
+   }
+   
+   #titleMaps h3 {
+      font-family: "Open Sans", sans-serif;
+      text-align: center;
+      width: 100%;
+      color: gray;
+   }
+
+   #location address{
+      text-align: center;
+      width: 100%;
+   }
+
+   #address strong{
+      padding: 50px;
+   }
+ 
+   #mapaGoolge{
+      text-align: center;
+      width: 100%;
+   }
+
+   #maps > article > iframe{
+      background-color: black;
+   }
+}
+
+
+
+
