@@ -1,0 +1,52 @@
+/* Importación de GoogleFonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Estilos generales */
+
+/* * {
+   margin: 0;
+} */
+
+body {
+   width: 100%;
+   font-family: "Open Sans", sans-serif;
+   background-color: black;
+}
+
+h1 {
+   font-size: 1.7em;
+   font-weight: 600;
+}
+
+h3 {
+   font-size: 1.5em;
+   font-weight: 500;
+}
+
+.titleSection {
+   font-weight: 400;
+   font-size: 2em;
+   padding: 0px 0 30px 0;
+   color: #ffffff;
+}
+
+#contact {
+   background-color: rgb(122, 98, 156);
+   background-image: url("/img/map-image.png");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   color: #ffffff;
+   padding: 40px 20px 40px 20px;
+}
+
+#contact form {
+   margin: 0 auto;
+}
+
+@media (width >= 810px) {
+   #contact form {
+      width: 50%;
+   }
+}
