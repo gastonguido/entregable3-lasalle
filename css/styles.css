@@ -9,7 +9,7 @@
 } */
 
 body {
-   width: 100%;
+   width: 1024px;
    font-family: "Open Sans", sans-serif;
    background-color: black;
 }
@@ -32,13 +32,14 @@ h3 {
 }
 
 header h1 {
+   width: 100%;
    min-height: 150px;
    text-align: left;
-   padding: 170px 40px 40px 40px;
+   padding: 140px 40px 140px 40px;
    color: #ffffff;
    background-color: sienna;
    background-image: url("/img/header.jpg");
-   background-size: 100%;
+   background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
 }
