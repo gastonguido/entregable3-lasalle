@@ -267,6 +267,10 @@ nav a:hover {
    padding: 40px 20px;
 }
 
+#contact .titleSection {
+   color: #ffffff;
+}
+
 #contact form {
    margin: 0 auto;
 }
