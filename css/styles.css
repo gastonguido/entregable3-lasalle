@@ -27,7 +27,15 @@ h3 {
    font-weight: 400;
    font-size: 2em;
    padding: 0px 0 30px 0;
-   color: #ffffff;
+   color: #000;
+   text-align: center;
+}
+
+.subtitleSection {
+   color: gray;
+   text-align: center;
+   width: 50%;
+   margin: 0 auto 40px auto;
 }
 
 header h1 {
@@ -70,7 +78,18 @@ nav a:hover {
    border-radius: 5px;
 }
 
+/* Who We are section */
+
+#whoweare {
+   padding: 40px 20px;
+}
+
 /*--------------------------------------------Services Section--------------------------------------------*/
+
+#services {
+   padding: 40px 20px;
+}
+
 #services i {
   color: rgb(99, 69, 138);
   vertical-align: text-bottom;
@@ -111,6 +130,7 @@ nav a:hover {
    text-align: center;
    background-size: cover;
    background-color: rgba(144, 144, 144, 0.118);
+   padding: 40px 20px;
 }
 
 .imgrote {
@@ -148,28 +168,6 @@ nav a:hover {
    transition: 1s ease-in-out;
 }
 
-#contact {
-   background-color: rgb(122, 98, 156);
-   background-image: url("/img/map-image.png");
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   color: #ffffff;
-   padding: 40px 20px 40px 20px;
-}
-
-#contact form {
-   margin: 0 auto;
-}
-
-@media (width >= 810px) {
-   #contact form {
-      width: 50%;
-   }
-}
-
-
-
 
 /*--------------------------------------------Location--------------------------------------------*/
 
@@ -177,7 +175,7 @@ nav a:hover {
 #location {
    text-align: center;  
    width: 100%;
-   padding: 10px;    
+   padding: 40px 20px;   
    margin: 10px;
 }
 
@@ -257,6 +255,24 @@ nav a:hover {
    }
 }
 
+/* Contact section */
 
+#contact {
+   background-color: rgb(122, 98, 156);
+   background-image: url("/img/map-image.png");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   color: #ffffff;
+   padding: 40px 20px;
+}
 
+#contact form {
+   margin: 0 auto;
+}
 
+@media (width >= 810px) {
+   #contact form {
+      width: 50%;
+   }
+}
